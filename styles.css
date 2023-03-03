@@ -1,0 +1,37 @@
+body{
+	box-sizing: border-box;
+	text-align: center;
+	
+}
+
+h1{
+	font-size: 2rem;
+	font-family: verdana;
+	font-weight: 200;
+	color: blue;
+	padding: 0 0 5% 0;
+}
+
+.form{
+	padding: 3% 25%;
+}
+
+#qrcode-container{
+    display:none;
+}
+
+.qrcode{
+  padding: 16px;
+  margin-top: 2%;
+  
+}
+.qrcode img{
+  margin: auto;
+  height: 200px;
+  max-width: 100%;   
+  box-shadow: 0 0 10px rgba(67, 67, 68, 0.25);
+   
+}
+
+
+
